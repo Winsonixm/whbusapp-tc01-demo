@@ -1,0 +1,9 @@
+applications:
+- path: target/whbusapp-tc01-demo.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: whbusapp-tc01-demo
+  host: whbusapp-tc01-demo
+  disk_quota: 1024M
+  buildpack: java_buildpack
